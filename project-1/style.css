@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #ffffff;
 
@@ -10,162 +8,220 @@ body {
 
 .lyrics {
     width: 100%;
-  height: 80px;
-  padding: 1px;
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    height: 80px;
+    padding: 1px;
+    position: fixed;
+    bottom:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: sans-serif
-    
 }
+
 .credits {
-     width: 100%;
-  height: 30px;
-  padding: 1px;
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: monospace;
     font-size: small;
     color: dimgrey
-        
-
 }
 
 /*used "contain" for some as some images get blown up when the window is small*/
 
 .bkg0 {
     background-image: url(asset/intro1.gif);
-    
-    background-position: center center;
+
+     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
     background-attachment: fixed;
+    background-size: contain;
 
 }
+
 .bkg1 {
     background-image: url(asset/opening_gif.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
 }
+
 .bkg2 {
     background-image: url(asset/doors.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    
-    
+
+
 }
+
 .bkg2a {
     background-image: url(asset/iishoni.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
 }
+
 .bkg3 {
     background-image: url(asset/chorus.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+    
+    cursor: url("asset/music-note.png"), auto;
 }
+
 .bkg4 {
     background-image: url(asset/heart.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 90%;
     background-size: contain;
     background-attachment: fixed;
- 
+
 }
+
 .bkg5 {
     background-image: url(asset/chorus2.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
- 
-    
+
+
 }
+
 .bkg6 {
     background-image: url(asset/Chorus2a.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
- 
+
 }
+
 .bkg7 {
     background-image: url(asset/chorus2b.gif);
-    
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
- 
+
 }
 
-a {
-    color:white;
+.quarantine {text-align: center;
+font-family: monospace;
+font-size: large;
+width: 100%;
+height: auto;
+;}
+
+.intro {
+    text-align: center;
+    margin-top:auto;
+    top: 60%;
+    color: white;
     font-family: monospace;
-        font-size: large;
-    
+    font-size: large;
 }
-.intro{
-  text-align: center;  
-    padding: 500px 0;
-    background: none;
-}
-
-/* Container needed to position the button. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 100%;
-    margin-top: auto;
-        margin-bottom: auto;
-}
-
-/* Make the image responsive */
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
-  position: absolute;
-  top: 15%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-   background-color: #555;
-  color: white;
-    font-size: 16px;
-  padding: 130px 100px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-    /* planning to make the button clear. however the button keeps moving and is not responsive like the image when window is resized */
-}
-
 
 audio {
     height: 0px;
 }
 
+.back {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-bottom: auto;
+}
 
+.front {
+    position: fixed;
+    width: 25%;
+    height: auto;
+    top: 0%;
+    left: 70%;
+    opacity: 0;
+
+}
+
+.front1 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 45%;
+    left: 45%;
+    opacity:50%;
+
+}
+.heart{
+     position: absolute;
+    width: 10%;
+    height: auto;
+   top: 47%;
+   left: 48%;
+    opacity:50%;
+}
+.heart2{
+     position: fixed;
+    width: 5%;
+    height: auto;
+   top: 63%;
+   left: 65%;
+}
+.front3 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 48%;
+    left: 2%;}
+
+.end{ 
+    position: fixed;
+    top: 80%;
+    left: 45%;
+    color: black;
+    font-family: monospace;
+    font-size: large;
+}
+.open{
+    position: absolute;
+    margin-top: 60%;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    
+}
+.circle {
+    position: fixed;
+    display: block;
+    z-index: 2;
+    top: 44%;
+    left: 43.5%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 128px white;
+    border-radius: 100%;
+    transition: transform 2s ease-in-out;
