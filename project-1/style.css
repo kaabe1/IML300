@@ -1,0 +1,163 @@
+
+
+body {
+    background-color: #ffffff;
+
+    display: grid;
+    height: 100vh;
+
+}
+
+.lyrics {
+    width: 100%;
+  height: 80px;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: sans-serif
+    
+}
+.credits {
+     width: 100%;
+  height: 30px;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    font-family: monospace;
+    font-size: small;
+    color: dimgrey
+        
+
+}
+
+/*used "contain" for some as some images get blown up when the window is small*/
+
+.bkg0 {
+    background-image: url(asset/intro1.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+.bkg1 {
+    background-image: url(asset/opening_gif.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.bkg2 {
+    background-image: url(asset/doors.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.bkg2a {
+    background-image: url(asset/iishoni.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.bkg3 {
+    background-image: url(asset/chorus.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.bkg4 {
+    background-image: url(asset/heart.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-size: contain;
+    background-attachment: fixed;
+ 
+}
+.bkg5 {
+    background-image: url(asset/chorus2.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+ 
+    
+}
+.bkg6 {
+    background-image: url(asset/Chorus2a.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+ 
+}
+.bkg7 {
+    background-image: url(asset/chorus2b.gif);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+ 
+}
+
+a {
+    color:white;
+    font-family: monospace;
+        font-size: large;
+    
+}
+.intro{
+  text-align: center;  
+    padding: 500px 0;
+    background: none;
+}
+
+/*this is the clear png, the imag keeps resizing or moving*/
+.clicker1{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 37%;    
+}
+
+.clicker2{
+    height: auto;
+    width: 195%;
+    position: relative;
+    top:265px;
+    left: 210px;  
+    
+
+       
+}
+
+
+audio {
+    height: 0px;
+}
+
+img {
+    border: 5px solid #555;
+}
+
+    
+}
