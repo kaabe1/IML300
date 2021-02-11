@@ -62,6 +62,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
+    
+    
 }
 .bkg2a {
     background-image: url(asset/iishoni.gif);
@@ -130,24 +132,35 @@ a {
     background: none;
 }
 
-/*this is the clear png, the imag keeps resizing or moving*/
-.clicker1{
-    height: auto;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 37%;    
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+    margin-top: auto;
+        margin-bottom: auto;
 }
 
-.clicker2{
-    height: auto;
-    width: 195%;
-    position: relative;
-    top:265px;
-    left: 210px;  
-    
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
 
-       
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   background-color: #555;
+  color: white;
+    font-size: 16px;
+  padding: 130px 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+    /* planning to make the button clear. however the button keeps moving and is not responsive like the image when window is resized */
 }
 
 
@@ -155,9 +168,4 @@ audio {
     height: 0px;
 }
 
-img {
-    border: 5px solid #555;
-}
 
-    
-}
