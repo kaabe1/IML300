@@ -1,5 +1,5 @@
 # Dancing on The Inside: "iishoni"
-![demo](https://github.com/kaabe1/iml300/master/project-1/asset/Project1_overview.gif)
+![demo](https://github.com/kaabe1/iml300/project-1/asset/Project1_overview.gif)
 
 [Dancing on The Inside: "iishoni"](https://kaabe1.github.io/iml300/project-1/) is an archival collection of various collabrative works with Gen Hoshino's song, "Dancing on the Inside."
 
