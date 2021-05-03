@@ -1,0 +1,240 @@
+
+h1{
+ font-family: 'Advent Pro', sans-serif;
+  
+font-size: 125px;
+line-height: 150px;
+display: flex;
+align-items: center;
+letter-spacing: 20px;
+  margin-bottom:0;
+
+color: #000000;
+  
+}
+h2
+{ font-family: 'Advent Pro', sans-serif;
+font-size: 70px;
+letter-spacing: 0.13em;
+margin-bottom: 10px;
+}
+
+h3
+{ font-family: 'Advent Pro', sans-serif;
+font-size: 50px;
+  position:relative;
+  left: 20px;
+align-items: left;
+  margin-bottom:10px;
+letter-spacing: 0.13em;}
+
+h4
+{ font-family: 'Advent Pro', sans-serif;
+font-size: 30px;
+  position:relative;
+align-items: left;
+letter-spacing: 0.13em;}
+
+h5
+{ font-family: 'Advent Pro', sans-serif;
+font-size: 15px;
+  position:relative;
+align-items: left;
+letter-spacing: 0.13em;}
+
+.projectTitle {
+  font-family: 'Advent Pro', sans-serif;
+font-size: 20px;
+  position:relative;
+align-items: left;
+letter-spacing: 0.13em;}
+  
+}
+p{ font-family: 'Roboto Mono', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+  text-align: left;}
+
+p2{  font-family: 'Roboto Mono', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+  text-align: left;}
+
+p3{  font-family: 'Roboto Mono', monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+  text-align: left;}
+/*   text-transform: uppercase;} */
+
+a{text-decoration: none; }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.super{
+/*   top: 10px; */
+/*   left: 30px; */
+  position: absolute;
+  width: 100vw;
+}
+
+
+nav{
+  position: fixed;
+/*  float: right; */
+  
+  width: inherit;
+  
+    text-align: center;
+/*     padding: 16px 16px; */
+    text-decoration: none;
+font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 42px;
+text-align: right;  
+  z-index: 1
+}
+
+nav li{
+  display: inline-block;
+    margin:0 0 10px 0; 
+  box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+
+#banner{
+  text-align: CENTER;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.text{
+  margin-top: 70px;
+}
+
+body {
+      background: linear-gradient(270deg, #E8A49C, #3C4CAD, #F04393, #F9C449);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.fa {
+/*   padding: 20px; */
+  width: 15px;
+  text-align: center;
+/*   text-decoration: none;
+  border-radius: 50%; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-instagram {
+/*   background: #125688; */
+  color: white;
+}
+
+/* p5 gallery */
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: CENTER;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
